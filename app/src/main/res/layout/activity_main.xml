@@ -31,7 +31,7 @@
         android:layout_marginEnd="160dp"
         android:layout_marginRight="160dp"
         android:layout_marginBottom="73dp"
-        android:text="Button"
+        android:text="Click Me !"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
