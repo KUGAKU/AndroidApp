@@ -14,9 +14,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val clickMeButton = findViewById<Button>(R.id.button)
-        var myTextView = findViewById<TextView>(R.id.textView)
+        val myTextView = findViewById<TextView>(R.id.textView)
+        var timesClicked = 0
         clickMeButton.setOnClickListener {
-            myTextView.text = "new Text"
+            timesClicked+=1
+            myTextView.text = timesClicked.toString()
+
         }
     }
 }
